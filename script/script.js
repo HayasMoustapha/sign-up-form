@@ -15,6 +15,9 @@ const showErrorMessage = ( input , message ) => {
 const showSuccessMessage = ( input ) => {
 
     input.className = "form-control success";
+    input.classList.remove("error","icon_error");
+    const small = document.querySelector("."+input.id)
+    small.innerText = "";
 
 }
 
