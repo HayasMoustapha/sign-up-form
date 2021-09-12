@@ -6,7 +6,7 @@ const password = document.getElementById("password");
 
 //  Show input error message
 const showErrorMessage = ( input , message ) => {
-    input.classList.add("error","icon_error");
+    input.classList.add("error" , "icon_error");
     const small = document.querySelector("."+input.id)
     small.innerText = message;
 }
