@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="scss/main.css">
+  
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+
+      <div class="container">
+
+        <div class="presentation">
+            <h1>Learn to code by watching others</h1>
+            <p class="presentation__desc">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+              but understanding how developers think is invaluable.</p>
+        </div>
+
+
+
+        <div class="sign">
+          <div class="sign__promo">
+            <a href="" class="sign__promo--link">Try it free 7 days <span>then $20/mo. thereafter</span></a>
+          </div>
+          <div class="sign__form">
+            <form action="" id="form">
+
+              <input type="text" id="firstName" name="First Name" class="form-control" placeholder="First Name">
+              <small class="firstName message"></small>
+
+              <input type="text" id="lastName" name="Last Name" class="form-control" placeholder="Last Name">
+              <small class="lastName message"></small>
+
+              <input type="text" id="email" name="Email" class="form-control" placeholder="Email Address">
+              <small class="email message"></small>
+
+              <input type="password" id="password" name="Password" class="form-control" placeholder="Password">
+              <small class="password message"></small>
+
+
+              <input type="submit" id="bouton" class="btn" value="Claim your free trial">
+            </form>
+            <p class="sign__form--footer">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+          </div>
+        </div>
+
+      </div>
+
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">BELKASSIM MOUSTAPHA</a>.
+    </p>
+  </footer>
+
+  <script src="script/script.js"></script>
+</body>
+</html>

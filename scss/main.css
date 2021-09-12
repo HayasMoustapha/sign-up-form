@@ -1,0 +1,295 @@
+@media (max-width: 540px) {
+  main .container .presentation {
+    width: 350px !important;
+    margin-bottom: 15px;
+  }
+  main .container .presentation h1 {
+    font-size: 2rem !important;
+    line-height: 30px !important;
+    margin-bottom: 5px !important;
+  }
+  main .container .sign {
+    width: 350px !important;
+  }
+  main .container .sign__promo {
+    margin-bottom: 20px !important;
+  }
+  main .container .sign__form {
+    padding: 15px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  main .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .container .presentation {
+    text-align: center;
+    margin-right: 0px !important;
+    margin-bottom: 30px;
+  }
+  main .container .sign__form form .form-control {
+    margin-bottom: 8px !important;
+  }
+  main .container .sign__form form .btn {
+    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
+            box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
+  }
+  main .container .sign__form form .message {
+    font-size: 10px !important;
+    line-height: 10px !important;
+    margin-bottom: 17px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  main .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .container .presentation {
+    text-align: center;
+    margin-right: 0px !important;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-height: 800px) {
+  main .container .presentation {
+    margin-bottom: 13px !important;
+  }
+  main .container .presentation__desc {
+    font-size: 10px;
+  }
+  main .container .sign__promo {
+    padding: 11px !important;
+    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
+            box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
+    margin-bottom: 12px !important;
+  }
+  main .container .sign__form {
+    padding: 15px !important;
+    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
+            box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
+  }
+  main .container .sign__form form .form-control {
+    padding: 10px 20px !important;
+    margin-bottom: 8px !important;
+  }
+  main .container .sign__form form .btn {
+    padding: 10px !important;
+  }
+  main .container .sign__form--footer {
+    margin-top: 7px !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+}
+
+main .container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .container .presentation {
+  width: 500px;
+  color: white;
+  margin-right: 60px;
+}
+
+main .container .presentation h1 {
+  font-size: 3rem;
+  line-height: 60px;
+  margin-bottom: 1.5rem;
+}
+
+main .container .presentation__desc {
+  opacity: 0.9;
+}
+
+main .container .sign {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+main .container .sign__promo {
+  width: 100%;
+  padding: 20px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 50px;
+  background: #6055a5;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.164);
+          box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.164);
+  text-align: center;
+}
+
+main .container .sign__promo--link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main .container .sign__promo--link span {
+  font-weight: normal;
+  color: #b9b6d3;
+}
+
+main .container .sign__form {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.164);
+          box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.164);
+}
+
+main .container .sign__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .sign__form form .form-control {
+  padding: 13px 23px;
+  border-radius: 5px;
+  outline-color: #3e3c49;
+  border: 1px solid #b9b6d3;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+main .container .sign__form form .success {
+  border: 2px solid #38cc8c;
+}
+
+main .container .sign__form form .error {
+  border: 2px solid #ff7a7a;
+}
+
+main .container .sign__form form .placeholder_error::-webkit-input-placeholder {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+main .container .sign__form form .placeholder_error:-ms-input-placeholder {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+main .container .sign__form form .placeholder_error::-ms-input-placeholder {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+main .container .sign__form form .placeholder_error::placeholder {
+  color: #ff7a7a;
+  font-weight: 600;
+}
+
+main .container .sign__form form .icon_error {
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+main .container .sign__form form .message {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  margin-bottom: 30px;
+  color: #ff7a7a;
+}
+
+main .container .sign__form form .btn {
+  padding: 13px;
+  background-color: #38cc8c;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgba(82, 218, 160, 0.644);
+  -webkit-box-shadow: 0px 2px 0px 2px rgba(0, 0, 0, 0.164);
+          box-shadow: 0px 2px 0px 2px rgba(0, 0, 0, 0.164);
+  border-radius: 8px;
+}
+
+main .container .sign__form--footer {
+  color: #b9b6d3;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+main .container .sign__form--footer span {
+  color: #ff7a7a;
+}
+/*# sourceMappingURL=main.css.map */
