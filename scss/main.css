@@ -1,91 +1,76 @@
-@media (max-width: 540px) {
+@media only screen and (max-width: 425px) {
+  main .container {
+    width: 90% !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
   main .container .presentation {
-    width: 350px !important;
-    margin-bottom: 15px;
+    width: 90% !important;
+    margin-right: 0 !important;
+    margin-bottom: 5% !important;
   }
   main .container .presentation h1 {
-    font-size: 2rem !important;
-    line-height: 30px !important;
-    margin-bottom: 5px !important;
-  }
-  main .container .sign {
-    width: 350px !important;
-  }
-  main .container .sign__promo {
-    margin-bottom: 20px !important;
-  }
-  main .container .sign__form {
-    padding: 15px !important;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 1024px) {
-  main .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .container .presentation {
     text-align: center;
-    margin-right: 0px !important;
-    margin-bottom: 30px;
-  }
-  main .container .sign__form form .form-control {
-    margin-bottom: 8px !important;
-  }
-  main .container .sign__form form .btn {
-    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
-            box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
-  }
-  main .container .sign__form form .message {
-    font-size: 10px !important;
-    line-height: 10px !important;
-    margin-bottom: 17px !important;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  main .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .container .presentation {
-    text-align: center;
-    margin-right: 0px !important;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-height: 800px) {
-  main .container .presentation {
-    margin-bottom: 13px !important;
+    font-size: 1.5rem !important;
+    line-height: normal !important;
+    margin-bottom: 3% !important;
   }
   main .container .presentation__desc {
-    font-size: 10px;
+    font-size: 0.9rem !important;
+    text-align: center !important;
+  }
+  main .container .sign {
+    width: 90% !important;
+    margin-top: 5%;
   }
   main .container .sign__promo {
-    padding: 11px !important;
+    padding: 6% !important;
     -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
             box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
     margin-bottom: 12px !important;
   }
   main .container .sign__form {
-    padding: 15px !important;
+    padding: 10% 5% !important;
     -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
             box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.164) !important;
   }
   main .container .sign__form form .form-control {
-    padding: 10px 20px !important;
-    margin-bottom: 8px !important;
+    font-size: 0.8rem !important;
+    font-weight: 700;
+    padding: 7% !important;
+    margin-bottom: -5% !important;
   }
   main .container .sign__form form .btn {
-    padding: 10px !important;
+    padding: 7% !important;
+    margin-bottom: 2% !important;
   }
   main .container .sign__form--footer {
     margin-top: 7px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  main .container {
+    width: 90% !important;
+  }
+  main .container .presentation {
+    width: 50% !important;
+    margin-right: 5% !important;
+  }
+  main .container .presentation h1 {
+    font-size: 1.7rem !important;
+    line-height: normal !important;
+  }
+  main .container .sign {
+    width: 60% !important;
+  }
+  main .container .sign__promo {
+    margin-bottom: 10%;
+  }
+  main .container .sign__form form .message {
+    margin-bottom: 4% !important;
   }
 }
 
