@@ -107,3 +107,60 @@
     }
   }
 }
+
+
+@media only screen and (max-height:750px) 
+{
+  main
+  {
+    .container
+    {
+      .presentation
+      {
+        margin-top:5%!important;
+        margin-bottom:0!important;
+        h1
+        {
+          font-size:1.3rem!important;
+        }
+        p
+        {
+          font-size:0.6rem!important;
+        }
+      }
+      .sign
+      {
+        &__promo
+        {
+          padding: 3%!important;
+          a
+          {
+            font-size:0.7rem!important;
+          }
+        }
+        &__form
+        {
+          padding: 8% 5%!important;
+
+          form
+          {
+            .form-control
+            {
+              padding: 5%!important;
+              font-size: 0.7rem!important;
+            }
+            .btn
+            {
+              padding: 5%!important;
+              font-size:0.8rem!important;
+            }
+          }
+          &--footer
+          {
+            font-size:0.5rem!important;
+          }
+        }
+      }
+    }
+  }
+}
