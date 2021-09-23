@@ -74,6 +74,39 @@
   }
 }
 
+@media only screen and (max-height: 750px) {
+  main .container .presentation {
+    margin-top: 5% !important;
+    margin-bottom: 0 !important;
+  }
+  main .container .presentation h1 {
+    font-size: 1.3rem !important;
+  }
+  main .container .presentation p {
+    font-size: 0.6rem !important;
+  }
+  main .container .sign__promo {
+    padding: 3% !important;
+  }
+  main .container .sign__promo a {
+    font-size: 0.7rem !important;
+  }
+  main .container .sign__form {
+    padding: 8% 5% !important;
+  }
+  main .container .sign__form form .form-control {
+    padding: 5% !important;
+    font-size: 0.7rem !important;
+  }
+  main .container .sign__form form .btn {
+    padding: 5% !important;
+    font-size: 0.8rem !important;
+  }
+  main .container .sign__form--footer {
+    font-size: 0.5rem !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
